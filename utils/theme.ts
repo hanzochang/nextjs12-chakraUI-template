@@ -9,6 +9,10 @@ export const templateTheme = extendTheme({
       letterSpacing: '',
     },
   },
+  fonts: {
+    heading: `'Noto Sans JP', 'system-ui'`,
+    body: `'Noto Sans JP', 'system-ui'`,
+  },
   sizes: {
     ...defaultTheme.sizes,
     '9xl': '105rem', // 1680px
